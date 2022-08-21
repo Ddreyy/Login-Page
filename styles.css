@@ -1,0 +1,71 @@
+body{
+    background-color: #5c5747;
+}
+h1{
+    text-align: center;
+    background-color: white;
+    color: grey;
+    font-family: Verdana,Tahoma, sans-serif;
+    font-size: 40px;
+}
+.design{
+    width: 300px;
+    height: 420px;
+    background: #695a2c;
+    color: #fff;
+    top: 60%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%); 
+    box-sizing: border-box;
+    padding: 75px 20px;
+}
+
+.btn-primary{
+    background-color: #695a2c;
+    color: #b4b1a8;
+    border: solid 2px ;
+}
+
+.login{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left:calc(50% - 50px);
+    border: #695a2c solid 2px;
+}
+.design input{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.design input[type="username"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+}
+
+.btn-primary{
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 20px;
+    background-color: #57450e;
+    padding: 5px 80px;
+    margin: 20px;
+}
+.btn-primary:hover{
+    background-color: #6b6962;
+}
+
+.design a{
+    color: white;
+}
+.design a:hover{
+    color: black;
+}
